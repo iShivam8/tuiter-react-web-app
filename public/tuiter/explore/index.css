@@ -1,0 +1,145 @@
+.wd-top {
+    margin-left: 16px;
+    width: 100%;
+}
+
+.wd-finder-icon {
+    background: url(../img/icons/search-icon.png) no-repeat scroll 7px 2px;
+    padding-left:30px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-full {
+    width: 100%;
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(110, 118, 125);
+}
+
+.wd-search {
+    color: white;
+    background-color: darkgray;
+    border-radius: 50px;
+    height: 25px;
+    margin-bottom: 0px;
+    width: 92%;
+}
+
+.wd-settings-gear {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-left: 12px;
+    margin-right: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+li {
+    background-color: black;
+    float: left;
+    width: 16%;
+}
+
+li a {
+    font-size: 15px;
+    display: block;
+    padding: 16px;
+    background-color: black;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+li a.wd-option-selected {
+    display: block;
+    padding: 16px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(29,161,242);
+    border-bottom: solid rgb(29,161,242) 2px;
+}
+
+hr.wd-gray {
+    border: 4px solid rgb(110, 118, 125);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span.wd-trending-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+span.wd-trending-title {
+    color: white;
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+span.wd-number-of-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+p.wd-title {
+    color: white;
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 1px;
+}
+
+span.wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+span.wd-topic-posted-date {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+span.wd-author {
+    color: white;
+    font-size: 13px;
+}
+
+img.wd-author-post-icon {
+    height: 15px;
+    width: 13px;
+    margin-left: 16px;
+}
+
+img.wd-verified-icon {
+    height: 15px;
+    width: 15px;
+}
+
+img.wd-image-right {
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+img.wd-dotted-image {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
