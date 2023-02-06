@@ -4,3 +4,10 @@ html {
     border-color: rgb(47, 51, 54);
     border-style: solid;
 }
+
+img.wd-dotted-image {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
