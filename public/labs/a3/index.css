@@ -517,9 +517,6 @@ p#id-selector-2 {
 /* Media Queries */
 
 /* TODO - Media Queries for specific elements + Add 2 more elements - h2, p, dics, and change their style as screen resizes */
-.media-query {
-
-}
 
 @media (min-width: 0px)
 and (max-width: 600px) {
