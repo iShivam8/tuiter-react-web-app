@@ -513,10 +513,7 @@ p#id-selector-2 {
    color: white;
 }
 
-
 /* Media Queries */
-
-/* TODO - Media Queries for specific elements + Add 2 more elements - h2, p, dics, and change their style as screen resizes */
 
 @media (min-width: 0px)
 and (max-width: 600px) {
@@ -552,4 +549,3 @@ and (max-width: 1800px) {
       color: white;
    }
 }
-
