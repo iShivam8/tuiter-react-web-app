@@ -1,95 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
-    <link href="index.css" rel="stylesheet">
-    <link href="../styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../styles.css" rel="stylesheet"/>
 </head>
 <body>
 
-    <form>
+<form class="wd-form-margin ms-5 me-5 pt-2">
 
-        <!-- Search Bar -->
-        <div class="wd-top">
-            <label for="search"></label>
-            <input type="text" id="search" placeholder="Search Tuiter" class="wd-search wd-finder-icon">
-            <a href="explore-settings.html"><img src="../img/icons/gear-settings.png" class="wd-settings-gear" alt="settings"></a>
-        </div>
+    <div class="row">
 
-        <br><br>
-
-        <div>
-            <ul>
-                <li><a href="#" class="wd-option-selected">For You</a></li>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">COVID-19</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Entertainment</a></li>
+        <div class="col-2 col-lg-1 col-xl-2 bg-black text-white">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-anchor fa-1x" style="color: white"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-home fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Home</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#"><i class="fa fa-hashtag fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Explore</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-bell fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Notifications</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-envelope fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Messages</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-bookmark fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Bookmarks</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-list fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Lists</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-user fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">Profile</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-ellipsis-h fa-1x" style="color: white"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline">More</span></a>
+                </li>
             </ul>
+            <button type="button" class="btn btn-primary override-btn">Tuit</button>
         </div>
 
-        <hr class="wd-gray">
-        <hr class="wd-gray">
+        <div class="col-lg-7 col-md-9 col-sm-9 col-9 bg-black text-white override-div">
 
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-full">
-                <span class="wd-trending-topic">Trending in Music</span><span>
-                <a href="#"><img src="../img/icons/three-dots-hr.png" class="wd-dotted-image"></a></span>
-                <br/>
-                <span class="wd-trending-title">Martin Garrix</span><br/>
-                <span class="wd-number-of-tuits">101.1K Tuits</span><br/><br/>
+            <!-- Search Bar -->
 
-                <span class="wd-trending-topic">Movie &#x2022 Trending</span><span>
-                <a href="#"><img src="../img/icons/three-dots-hr.png" class="wd-dotted-image"></a></span>
-                <br/>
-                <span class="wd-trending-title">Quantumania</span><br/>
-                <span class="wd-number-of-tuits">9,248 Tuits</span><br/><br/>
+            <div class="form-group has-search mt-2 mb-2">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" placeholder="Search Tuiter"
+                       class="wd-form-control border-0 wd-background-color form-control-lg">
+                <span>
+                    <a href="#">
+                        <img class = "wd-settings-logo" src="../img/icons/gear-settings.png">
+                    </a>
+                </span>
+            </div>
+
+            <!-- Tabs -->
+
+            <div>
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item override-li">
+                        <a class="nav-link active" href="#">For you</a>
+                    </li>
+                    <li class="nav-item override-li">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item override-li">
+                        <a class="nav-link" href="#">COVID-19</a>
+                    </li>
+                    <li class="nav-item override-li">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item override-li d-lg-block d-md-none d-sm-none d-none">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item override-li d-xl-block d-lg-none d-md-none d-sm-none d-none">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Middle Container Content -->
+
+            <div class="wd-container">
+                <img class="wd-image-garrix-concert" src="../img/Garrix%20Banner%20Image.jpeg">
+                <p class="bottom-left">Music &#x2022 Trending<br/>
+                    <span class="wd-image-span-tag">Martin Garrix & Space Ducks releases new song - Cucoon!</span>
+                </p>
+            </div>
+
+            <hr/><br/>
+
+            <div class = "flex-container-stretch">
+                <div>
+                    <span class="wd-topic">Trending in EDM</span>
+                    <span><img class="wd-dot-image-right ms-5" src="../img/icons/three-dots-hr.png"></span><br/>
+                    <span class="wd-title-span">Martin Garrix</span><br/>
+                    <span class="wd-number-of-tuits">101.24K Tuits</span><br/><br/>
+
+                    <span class="wd-topic">Trending in POP</span><span><img
+                        class="wd-dot-image-right ms-5" src="../img/icons/three-dots-hr.png"></span><br/>
+                    <span class="wd-title-span">The ChainSmokers</span><br/>
+                    <span class="wd-number-of-tuits">Trending with <a class="wd-number-of-tuits-tag" href="#">Hope</a></span><br/><br/>
+                </div>
+            </div>
+
+            <div class="flex-container-stretch">
+                <div class="wd-grid-col-full-page">
+                    <img class="wd-image-right" src="../img/explore_feed/miami_feed.jpeg">
+                    <img class="wd-author-post-icon" src="../img/explore_feed/ultra_icon.jpeg">
+                    <span class="wd-author">Ultra</span>
+                    <img class="wd-verified-icon" src="../img/icons/icon-verified-tick.png">
+                    <span class="wd-topic-posted-date">&#x2022 February 8, 2023</span>
+                    <p class="wd-title">Main stage closing DJs announced: Garrix, Hardwell on top of the list!</p>
+                </div>
             </div>
         </div>
 
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-full">
-                <img class="wd-image-right" src="../img/explore_feed/nyt_square.jpeg">
-                <img class="wd-author-post-icon" src="../img/explore_feed/nyt_icon.png">
-                <span class="wd-author">The New York Times</span>
-                <img class="wd-verified-icon" src="../img/icons/icon-verified-tick.png">
-                <span class="wd-topic-posted-date">&#x2022 Yesterday</span>
-                <p class="wd-title">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
-            </div>
-        </div>
+        <!-- Right column - who to follow -->
 
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-full">
-                <img class="wd-image-right" src="../img/explore_feed/MA_icon.webp">
-                <span class="wd-topic">COVID-19</span>
-                <span class="wd-topic-posted-date">&#x2022 LIVE</span>
-                <p class="wd-title">COVID 19: News and updates for Massachusetts</p>
-            </div>
-        </div>
+        <div class="col-xl-3 col-lg-4 bg-black d-none d-lg-block d-xl-block d-xxl-block">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Who to Follow</h5>
+                    <div class="card-text"><br/>
 
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-full">
-                <img class="wd-image-right" src="../img/explore_feed/miami_feed.jpeg">
-                <img class="wd-author-post-icon" src="../img/explore_feed/ultra_icon.jpeg">
-                <span class="wd-author">Ultra Music Festival</span>
-                <img class="wd-verified-icon" src="../img/icons/icon-verified-tick.png">
-                <span class="wd-topic-posted-date">&#x2022 Yesterday</span>
-                <p class="wd-title">Ultra Miami 2023 Lineup Reveal: Martin Garrix, David Guetta, Marshmello and many more!</p>
-            </div>
-        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="wd-who-to-follow" src="../img/tcs_profile.jpeg">
+                            </div>
+                            <div class="col-7 text-white">
+                                <span class="wd-who-to-follow-name">The Chain Smokers</span>
+                                <img class="wd-verified-icon" src="../img/icons/icon-verified-tick.png">
+                                <br>
+                                <span class="wd-who-to-follow-handle">@TCS</span>
+                            </div>
+                            <div class="col-3 text-white">
+                                <button class="btn btn-primary override-who-to-follow-btn pe-2 ps-2">Follow</button>
+                            </div>
+                        </div>
 
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-full">
-                <span class="wd-trending-topic">Trending in United States</span><span>
-                <a href="#"><img src="../img/icons/three-dots-hr.png" class="wd-dotted-image"></a></span>
-                <br/>
-                <span class="wd-trending-title">Dunkin Donuts</span><br/>
-                <span class="wd-number-of-tuits">2.4K Tuits</span><br/><br/>
-            </div>
-        </div>
-    </form>
+                        <br/>
 
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="wd-who-to-follow" src="../img/walker-dp.jpeg">
+                            </div>
+                            <div class="col-7 text-white">
+                                <span class="wd-who-to-follow-name">Alan Walker</span>
+                                <img class="wd-verified-icon" src="../img/icons/icon-verified-tick.png"><br>
+                                <span class="wd-who-to-follow-handle">@walkerverse</span>
+                            </div>
+                            <div class="col-3 text-white">
+                                <button class="btn btn-primary override-who-to-follow-btn pe-2 ps-2">Follow</button>
+                            </div>
+                        </div>
+
+                        <br/>
+
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="wd-who-to-follow" src="../img/marshmello-dp.jpeg">
+                            </div>
+                            <div class="col-7 text-white">
+                                <span class="wd-who-to-follow-name">Marshmello</span>
+                                <img class="wd-verified-icon" src="../img/icons/icon-verified-tick.png"><br>
+                                <span class="wd-who-to-follow-handle">@mello</span>
+                            </div>
+                            <div class="col-3 text-white">
+                                <button class="btn btn-primary override-who-to-follow-btn pe-2 ps-2">Follow</button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a class="wd-show-more" href="#">Show More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extra T&Cs -->
+
+            <div class="wd-topic-terms ms-3 mt-2">
+                <a class="wd-terms" href="#">Terms of Service</a>
+                <a class=" wd-terms ms-3" href="#">Privacy Policy</a>
+                <a class="wd-terms ms-3" href="#">Cookie Policy</a><br/>
+                <a class="wd-terms" href="#">Ads Info</a>
+                <a class="wd-terms ms-3" href="#">More</a>
+                <a class="wd-terms ms-3" href="#">©2023 Tuiter Inc.</a>
+            </div>
+
+        </div>
+    </div>
+</form>
 </body>
 </html>

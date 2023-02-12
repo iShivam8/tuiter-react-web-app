@@ -1,127 +1,96 @@
+.btn-primary.override-btn {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #1da1f2;
+}
+
+.nav-item.override-li {
+    width: 16.6%;
+}
+
+.wd-form-margin {
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+i {
+    padding-right: 4% !important;
+}
+
 .wd-top {
-    margin-left: 16px;
     width: 100%;
-}
-
-.wd-finder-icon {
-    background: url(../img/icons/search-icon.png) no-repeat scroll 7px 2px;
-    padding-left:30px;
-}
-
-.wd-grid-row {
-    clear: both;
-}
-
-.wd-grid-col-full {
-    width: 100%;
-    float: left;
-    padding-top: 12px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgb(110, 118, 125);
+    margin-bottom: 1%;
 }
 
 .wd-search {
     color: white;
     background-color: darkgray;
+    width: 90%;
     border-radius: 50px;
-    height: 25px;
-    margin-bottom: 0px;
-    width: 92%;
 }
 
-.wd-settings-gear {
-    width: 40px;
+.wd-settings-logo {
     height: 40px;
+    width: 40px;
     float: right;
-    margin-left: 12px;
-    margin-right: 40px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
+img.wd-image-garrix-concert {
     width: 100%;
 }
 
-li {
-    background-color: black;
-    float: left;
-    width: 16%;
+.wd-text-bottom-left {
+    position: relative;
 }
 
-li a {
-    font-size: 15px;
-    display: block;
-    padding: 16px;
-    background-color: black;
-    text-decoration: none;
-    color: rgb(110, 118, 125);
+.wd-main-text {
+    position: relative;
 }
 
-li a.wd-option-selected {
-    display: block;
-    padding: 16px;
-    background-color: black;
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(29,161,242);
-    border-bottom: solid rgb(29,161,242) 2px;
+.wd-main-text > img, .overlay-text {
+    position: absolute;
+    width: 100%;
 }
 
-hr.wd-gray {
-    border: 4px solid rgb(110, 118, 125);
-    margin-top: 0px;
-    margin-bottom: 0px;
+.overlay-text {
+    margin-top: 50%;
 }
 
-span.wd-trending-topic {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    padding-left: 16px;
+.wd-margin-left {
+    margin-left: 5%;
 }
 
-span.wd-trending-title {
+.card {
+    background-color: rgb(26, 26, 26);
+    border-radius: 5%;
+}
+
+.card-title {
     color: white;
-    font-size: 13px;
-    padding-left: 16px;
 }
 
-span.wd-number-of-tuits {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    padding-left: 16px;
-}
-
-p.wd-title {
+.card-body {
     color: white;
-    font-size: 15px;
-    margin-left: 16px;
-    margin-top: 1px;
 }
 
-span.wd-topic {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    padding-left: 16px;
+img.wd-who-to-follow {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
-span.wd-topic-posted-date {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
+.wd-who-to-follow-img {
+    width: 20%;
 }
-
-span.wd-author {
-    color: white;
-    font-size: 13px;
-}
-
-img.wd-author-post-icon {
-    height: 15px;
-    width: 13px;
-    margin-left: 16px;
+.wd-who-to-follow-handle {
+    width: 80%;
 }
 
 img.wd-verified-icon {
@@ -129,10 +98,160 @@ img.wd-verified-icon {
     width: 15px;
 }
 
+span.wd-who-to-follow-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+span.wd-who-to-follow-handle {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+.btn-primary.override-who-to-follow-btn {
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+}
+
+a.wd-show-more {
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+div.override-div {
+    border: solid rgb(26, 26, 26) 2px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-full-page {
+    width: 100%;
+}
+
+span.wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+span.wd-title-span {
+    color: white;
+    font-size: 13px;
+}
+
+span.wd-number-of-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+a.wd-number-of-tuits-tag {
+    color: #1da1f2;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+img.wd-dot-image-right {
+    float: right;
+    height: 30px;
+    width: 40px;
+}
+
 img.wd-image-right {
     float: right;
     height: 100px;
     width: 100px;
-    margin-right: 16px;
     border-radius: 10px;
+}
+
+img.wd-author-post-icon {
+    height: 15px;
+    width: 13px;
+}
+
+span.wd-author {
+    color: white;
+    font-size: 13px;
+}
+
+span.wd-topic-posted-date {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+p.wd-title {
+    color: white;
+    font-size: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background:none;
+    color: white;
+    border: none;
+    border-bottom: solid #1da1f2 4px;
+}
+
+.nav-tabs .nav-link {
+    color: rgb(110, 118, 125);
+    text-align: center;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-size: 10px;
+    text-align: left;
+}
+
+span.wd-image-span-tag {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link.active i {
+    zoom: 140%;
+}
+
+div.wd-topic-terms {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+a.wd-terms {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+    font-size: 10px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3.0rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-form-control {
+    background-color: rgb(26, 26, 26);
+    width: 85%;
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 2.375rem;
+    color: rgb(110, 118, 125);
 }
