@@ -257,3 +257,7 @@ a.wd-terms {
     pointer-events: none;
     color: #aaa;
 }
+
+.wd-search-text-color {
+    color: white;
+}
