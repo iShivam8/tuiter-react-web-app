@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+}
+
+.btn-primary.override-btn {
+    width: 100%;
+    background-color: #1da1f2;
+    border-radius: 20px;
+}
+
+.nav-item.override-li {
+    width: 16.6%;
+}
+
+.wd-form-margin {
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+i {
+    padding-right: 4% !important;
+}
+
+.wd-top {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.wd-search {
+    color: white;
+    background-color: darkgray;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.wd-settings-logo {
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+img.wd-image-garrix-concert {
+    width: 100%;
+}
+
+.wd-text-bottom-left {
+    position: relative;
+}
+
+.wd-main-text {
+    position: relative;
+}
+
+.wd-main-text > img, .overlay-text {
+    position: absolute;
+    width: 100%;
+}
+
+.overlay-text {
+    margin-top: 50%;
+}
+
+.wd-margin-left {
+    margin-left: 5%;
+}
+
+.card {
+    background-color: rgb(26, 26, 26);
+    border-radius: 5%;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-body {
+    color: white;
+}
+
+img.wd-who-to-follow {
+    width: 140%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.wd-who-to-follow-img {
+    width: 20%;
+}
+
+.wd-who-to-follow-handle {
+    width: 80%;
+}
+
+img.wd-verified-icon {
+    height: 15px;
+    width: 15px;
+}
+
+span.wd-who-to-follow-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+span.wd-who-to-follow-handle {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+.btn-primary.override-who-to-follow-btn {
+    font-size: 12px;
+    color: black;
+    background-color: #1da1f2;
+    border-radius: 40px;
+}
+
+a.wd-show-more {
+    text-decoration: none;
+    color: #1da1f2;
+}
+
+div.override-div {
+    border: solid rgb(26, 26, 26) 2px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-full-page {
+    width: 100%;
+}
+
+span.wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+span.wd-title-span {
+    color: white;
+    font-size: 13px;
+}
+
+span.wd-number-of-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+a.wd-number-of-tuits-tag {
+    color: #1da1f2;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+img.wd-dot-image-right {
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+
+img.wd-image-right {
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+img.wd-author-post-icon {
+    height: 15px;
+    width: 13px;
+}
+
+span.wd-author {
+    color: white;
+    font-size: 13px;
+}
+
+span.wd-topic-posted-date {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+p.wd-title {
+    color: white;
+    font-size: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background:none;
+    color: white;
+    border: none;
+    border-bottom: solid #1da1f2 4px;
+}
+
+.nav-tabs .nav-link {
+    color: rgb(110, 118, 125);
+    text-align: center;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-size: 10px;
+    text-align: left;
+}
+
+span.wd-image-span-tag {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link.active i {
+    zoom: 140%;
+}
+
+div.wd-topic-terms {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+a.wd-terms {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+    font-size: 10px;
+}
+
+.wd-form-control {
+    width: 85%;
+    background-color: rgb(26, 26, 26);
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 2.375rem;
+    color: rgb(110, 118, 125);
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3.0rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-search-text-color {
+    color: white;
+}
