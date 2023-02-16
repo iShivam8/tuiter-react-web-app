@@ -1,0 +1,184 @@
+.nav-link {
+    color: white;
+    background-color: #222;
+    border: solid 1px rgb(26,26,26);
+}
+
+i {
+    padding-right: 4% !important;
+}
+
+.card {
+    border-radius: 5%;
+}
+
+img.wd-verified-icon {
+    height: 15px;
+    width: 15px;
+}
+
+span.wd-who-to-follow-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p.wd-who-to-follow-handle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+img.wd-who-to-follow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+img.wd-image-right {
+    float: right !important;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.wd-grid-col-full-page {
+    width: 100%;
+}
+
+span.wd-topic {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+span.wd-username {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+span.wd-topic-posted-date {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+p.wd-title {
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3.0rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-form-control {
+    background-color: white;
+    width: 85%;
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 2.375rem;
+    color: rgb(110, 118, 125);
+}
+
+.wd-settings-logo {
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: solid 0.5px rgb(110, 118, 125);
+}
+
+img.wd-header-image {
+    width: 100%;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    font-size: 10px;
+    text-align: left;
+}
+
+span.wd-image-span-tag {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+img.wd-user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+span.wd-post-topic {
+    color: white;
+    font-size: 13px;
+}
+
+img.wd-post-image {
+    width: 100%;
+    height: 350px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.wd-content-header {
+    width: 100%;
+    border: solid 0.5px rgb(110, 118, 125);
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.wd-post-actions {
+    width: 100%;
+}
+
+a.wd-action {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-content-data {
+    border-bottom: solid 0.2px rgb(110, 118, 125);
+}
+
+.wd-post-content {
+    font-size: 14px;
+    color: rgb(110, 118, 125);
+}
+
+a.wd-hyperlink-in-string {
+    text-decoration: none;
+}
+
+i.wd-link {
+    margin-right: 0px;
+}
+
+a.wd-hyperlink-in-string-no-dec {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+p.wd-post-title {
+    color: white;
+    font-size: 13px;
+}
