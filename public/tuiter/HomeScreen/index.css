@@ -4,10 +4,6 @@
     border: solid 1px rgb(26,26,26);
 }
 
-i {
-    padding-right: 4% !important;
-}
-
 .card {
     border-radius: 5%;
 }
@@ -25,6 +21,10 @@ span.wd-who-to-follow-name {
 p.wd-who-to-follow-handle {
     font-size: 12px;
     font-weight: bold;
+}
+
+i {
+    padding-right: 4% !important;
 }
 
 img.wd-who-to-follow {
@@ -80,6 +80,15 @@ p.wd-title {
     color: #aaa;
 }
 
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: solid 0.5px rgb(110, 118, 125);
+}
+
 .wd-form-control {
     background-color: white;
     width: 85%;
@@ -92,15 +101,6 @@ p.wd-title {
     height: 40px;
     width: 40px;
     float: right;
-}
-
-.wd-container {
-    position: relative;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border: solid 0.5px rgb(110, 118, 125);
 }
 
 img.wd-header-image {
@@ -127,6 +127,14 @@ img.wd-user-avatar {
     border-radius: 50%;
 }
 
+.wd-content-header {
+    width: 100%;
+    border: solid 0.5px rgb(110, 118, 125);
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
 span.wd-post-topic {
     color: white;
     font-size: 13px;
@@ -139,14 +147,6 @@ img.wd-post-image {
     border-top-left-radius: 10px;
 }
 
-.wd-content-header {
-    width: 100%;
-    border: solid 0.5px rgb(110, 118, 125);
-    margin-bottom: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
 .wd-post-actions {
     width: 100%;
 }
@@ -156,17 +156,17 @@ a.wd-action {
     color: rgb(110, 118, 125);
 }
 
-.wd-content-data {
-    border-bottom: solid 0.2px rgb(110, 118, 125);
-}
-
 .wd-post-content {
-    font-size: 14px;
     color: rgb(110, 118, 125);
+    font-size: 14px;
 }
 
 a.wd-hyperlink-in-string {
     text-decoration: none;
+}
+
+.wd-content-data {
+    border-bottom: solid 0.2px rgb(110, 118, 125);
 }
 
 i.wd-link {
