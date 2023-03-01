@@ -1,0 +1,12 @@
+[{ "_id": 123, "topic": "EDM", "userName": "Ultra",
+  "title": "Ultra Miami 2023 all set with Top tier DJs - Garrix, Zedd, etc.",
+  "time": "2h",   "image": "../../images/ultra_icon.jpeg" },
+
+  { "_id": 234, "topic": "News",   "userName": "New York Times",
+    "title": "People tend to listen EDM over indie Pop, 2023 surveys says.",
+    "time": "2h",   "image": "../../images/nyt_icon.png" },
+
+  { "_id": 345, "topic": "POP",  "userName": "The ChainSmokers",
+    "title": "So far so good album by @tcs is topping the POP charts on Spotify.",
+    "time": "4d",   "image": "../../images/tcs_cover.jpeg" }
+]
