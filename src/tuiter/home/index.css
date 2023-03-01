@@ -1,0 +1,50 @@
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+a.wd-thread-link {
+    text-decoration: none;
+    color: rgb(29,161,242);
+}
+
+.wd-retuited-username {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+span.wd-handle {
+    color: rgb(110, 118, 125);
+}
+
+.wd-nudge-up {
+    bottom: 18px;
+    left: 25px;
+}
+
+.wd-bottom-2 {
+    bottom: 2px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
+
+.wd-subtuit {
+    border-radius: 5px;
+    border: solid 0.5px rgb(110, 118, 125);
+}
+
+.wd-action {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}

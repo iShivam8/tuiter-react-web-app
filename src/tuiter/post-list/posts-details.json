@@ -1,0 +1,46 @@
+[
+  {
+    "_id" : 1234,
+    "isRetuit": true,
+    "retuitUserName": "Martin Garrix",
+    "avatarIcon": "../../images/kygo-dp.jpeg",
+    "userName": "KYGO",
+    "handle": "kygo",
+    "time": "4h",
+    "header": "My dear friend - Martin Garrix's latest album #Sentio out now!!! Go give a listen",
+    "headerPostLink": "music.youtube.com/martin-garrix/sentio",
+    "image": "../../images/sentio.webp",
+    "postContent": {
+      "avatarIcon": "",
+      "userName": "",
+      "handle": "",
+      "time": "",
+      "header": "",
+      "headerPostLink": ""
+    },
+    "commentCount": "5.7K",
+    "retuitCount": "9.2K",
+    "likeCount": "44.6K"
+  },
+  {
+    "_id" : 2345,
+    "avatarIcon": "../../images/marshmello-dp.jpeg",
+    "userName": "Marshmello",
+    "handle": "mello",
+    "time": "15h",
+    "header": "Need to collab ASAP - Mello x Walker!",
+    "headerPostLink": "",
+    "image": "",
+    "postContent": {
+      "avatarIcon": "../../images/walker-dp.jpeg",
+      "userName": "Alan Walker",
+      "handle": "walkerverse",
+      "time": "22h",
+      "header": "Looking to collab with someone for a new album! Apply here",
+      "headerPostLink": "walkerverse.com/collab"
+    },
+    "commentCount": "3.4K",
+    "retuitCount": "5.2K",
+    "likeCount": "32.8K"
+  }
+]
