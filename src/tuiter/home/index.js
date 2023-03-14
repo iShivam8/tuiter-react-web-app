@@ -1,17 +1,16 @@
 import "./index.css";
 import PostList from "../post-list";
 import PostSummaryList from "../post-summary-list";
+import TuitList from "../tuit-list";
+import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
     return(
         <>
+            <h4>Home</h4>
             <div className="row mt-2">
-                <div className="col-10 col-lg-8 col-xl-7">
-                    <PostList/>
-                </div>
-                <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-5">
-                    <PostSummaryList/>
-                </div>
+                <WhatsHappening/>
+                <TuitList/>
             </div>
         </>
     );

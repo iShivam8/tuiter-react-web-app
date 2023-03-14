@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 123,
+    "userName": "Marshmello",
+    "handle": "mello",
+    "avatarIcon": "../../images/marshmello-dp.jpeg"
+  },
+  {
+    "_id": 234,
+    "userName": "KYGO",
+    "handle": "kygo",
+    "avatarIcon": "../../images/kygo-dp.jpeg"
+  },
+  {
+    "_id": 345,
+    "userName": "Alan Walker",
+    "handle": "walkerverse",
+    "avatarIcon": "../../images/walker-dp.jpeg"
+  }
+]

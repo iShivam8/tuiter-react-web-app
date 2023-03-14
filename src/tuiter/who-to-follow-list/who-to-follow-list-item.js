@@ -1,7 +1,7 @@
 import React from "react";
 const WhoToFollowListItem = (
     {
-        who = { userName: 'Martin Garrix', handle: 'Martijn', avatarIcon: '../../images/Garrix-dp.jpeg' }
+        who = { userName: 'Marshmello', handle: 'mello', avatarIcon: '../../images/marshmello-dp.jpeg' }
     }
 ) => {
     return(
