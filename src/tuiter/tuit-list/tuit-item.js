@@ -6,20 +6,7 @@ import TuitStats from "./tuit-stats";
 import {deleteTuit} from "../tuits/tuits-reducer";
 const TuitItem = (
     {
-        tuit = {
-            "_id": 123,
-            "topic": "EDM",
-            "userName": "Ultra",
-            "handle": "@ultra",
-            "time": "2h",
-            "title": "Ultra Miami 2023 all set with Top tier DJs - Garrix, Zedd, etc.",
-            "image": "../../images/ultra_icon.jpeg",
-            "liked": true,
-            "replies": 582,
-            "retuits": 720,
-            "likes": 7942,
-            "tuit": "Ultra returns with Ultra Miami 2023! Get your tickets now!!! GA Premium Sold out. VIP 90% sold out."
-        }
+        tuit
     }
 ) => {
     const dispatch = useDispatch();
