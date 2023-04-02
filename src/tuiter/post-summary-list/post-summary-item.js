@@ -2,6 +2,7 @@ import React from "react";
 const PostSummaryItem = (
     {
         post = {
+            "_id": 123,
             "topic": "EDM",
             "userName": "Ultra",
             "handle": "@ultra",
