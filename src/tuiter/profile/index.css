@@ -1,0 +1,39 @@
+.wd-user-tweet-count {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+img.wd-banner-picture {
+    height: 250px;
+}
+
+img.wd-profile-picture {
+    height: 100px;
+    width: 100px;
+}
+
+.wd-gray-text {
+    color: gray;
+}
+
+.wd-parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.wd-image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+}
+
+.wd-image2 {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 140px;
+    left: 20px;
+    border: 1px solid #000000;
+}
