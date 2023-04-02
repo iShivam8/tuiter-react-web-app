@@ -1,0 +1,16 @@
+{
+  "_id": "12345678",
+  "firstName": "Martin",
+  "lastName": "Garrix",
+  "handle": "@Martijn",
+  "profilePicture": "../../images/Garrix-dp.jpeg",
+  "bannerPicture": "../../images/sentio.webp",
+  "bio": "#1 DJ in the world! Sentio Album out now!",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "5/14/1996",
+  "dateJoined": "3/2011",
+  "followingCount": 274,
+  "followersCount": 87238,
+  "tuits": "9,428"
+}
