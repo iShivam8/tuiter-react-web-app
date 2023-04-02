@@ -6,6 +6,7 @@ import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
+    /*
     const update = () => {
         const newTuit = {
             ...tuit,
@@ -14,6 +15,7 @@ const TuitStats = ({tuit}) => {
         }
         dispatch(updateTuit(newTuit))
     }
+    */
 
     return(
         <>
@@ -42,7 +44,7 @@ const TuitStats = ({tuit}) => {
             </div>
             <div className="col-2">
                 <a href="#" className="wd-action">
-                    { tuit.disliked && <i className="bi bi-hand-thumbs-down-fill me-2 text-danger"
+                    { tuit.disliked && <i className="bi bi-hand-thumbs-down-fill me-2 text-black"
                                           onClick={() => dispatch(updateTuitThunk({
                                               ...tuit,
                                               disliked: false,

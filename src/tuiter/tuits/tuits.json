@@ -11,6 +11,8 @@
     "replies": 582,
     "retuits": 720,
     "likes": 7942,
+    "dislikes": 412,
+    "disliked": false,
     "tuit": "Ultra returns with Ultra Miami 2023! Get your tickets now!!! GA Premium Sold out. VIP Premium 90% sold out."
   },
   {
@@ -25,6 +27,8 @@
     "replies": 1042,
     "retuits": 389,
     "likes": 561,
+    "dislikes": 9415,
+    "disliked": true,
     "tuit": "EDM >>>> Indie POP : 2023 Survey Says. What are your thoughts on this?"
   },
   {
@@ -39,6 +43,8 @@
     "replies": 640,
     "retuits": 872,
     "likes": 947,
+    "dislikes": 857,
+    "disliked": false,
     "tuit": "And we're back with So Far So Good - Solo Mission being my fav!! Go give a listen"
   }
 ]

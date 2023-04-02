@@ -7,7 +7,18 @@ const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
-        const newTuit = {tuit: whatsHappening}
+        const newTuit = {
+            image: '../../images/Garrix-dp.jpeg',
+            handle: '@Martijn',
+            time: '1m',
+            username: 'Martin Garrix',
+            replies: 0,
+            retuits: 0,
+            dislikes: 0,
+            liked: false,
+            disliked: false,
+            tuit: whatsHappening
+        }
         //dispatch(createTuit(newTuit));
         dispatch(createTuitThunk(newTuit));
     }
