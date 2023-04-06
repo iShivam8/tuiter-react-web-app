@@ -5,7 +5,7 @@ import axios from 'axios';
 //const TUITS_API = 'https://tuiter-node-server-app-zimt.onrender.com/api/tuits';
 
 // Node API for A9
-//const TUITS_API = 'https://tuiter-node-server-app-a9-35a7.onrender.com';
+//const TUITS_API = 'https://tuiter-node-server-app-a9-35a7.onrender.com/api/tuits';
 
 const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`;
