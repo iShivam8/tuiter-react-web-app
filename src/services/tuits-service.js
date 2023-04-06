@@ -11,7 +11,6 @@ const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`;
 
 // const CONNECTION_STRING = process.env.DB_CONNECTION_STRING;
-
 // console.log("DB CONNECTION STRING: " + CONNECTION_STRING);
 // console.log("API BASE: " + API_BASE);
 // console.log("TUITS API: " + TUITS_API);
